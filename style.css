@@ -61,3 +61,21 @@ img {
 b {
     font-weight:bolder;
 }
+
+div div {
+    border: 2px solid green;
+}
+
+#fotoPerfil {
+    float: left;
+    margin-right: 30px;
+}
+
+.sobreMim {
+    text-align: justify;
+}
+
+.foto-descricao {
+    height: 300px;
+    float: center;
+}
