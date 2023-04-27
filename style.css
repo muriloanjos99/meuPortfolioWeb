@@ -16,15 +16,6 @@ h1 {
     font-size: 22pt;
 }
 
-#sobreMim {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-
-#sobreMimT {
-    text-align: center;
-}
-
 body {
     background-color: #EBEBC1;
 }
@@ -53,17 +44,8 @@ body {
     font-size: 18px;
 }
 
-img {
-    border-radius: 20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.493);
-}
-
 b {
     font-weight:bolder;
-}
-
-div div {
-    border: 2px solid green;
 }
 
 #fotoPerfil {
@@ -72,14 +54,78 @@ div div {
 }
 
 .sobreMim {
-    text-align: justify;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 20px;
+
 }
 
 .foto-descricao {
-    height: 300px;
+    height: 340px;
     float: center;
 }
 
 .nome {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+#fotoPerfil {
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #cfcf9d;
+}
+
+.habilidades {
+    text-align: center;
+    margin: 40px;
+}
+
+.habilidades li {
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    margin: 5px;
+}
+
+.minhasRedes {
+    text-align: center;
+    margin: 40px;
+}
+
+.minhasRedes li {
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    margin: 5px;
+}
+
+.sites {
+    text-align: center;
+    margin: 40px;
+}
+
+.sites li {
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    margin: 5px;
+}
+.indice {
+    text-align: center;
+    margin: 40px;
+}
+
+.indice li {
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+    margin: 5px;
+}
+
+.habilidades li:nth-child(even) {
+    list-style: none;
 }
