@@ -79,3 +79,7 @@ div div {
     height: 300px;
     float: center;
 }
+
+.nome {
+    text-align: center;
+}
